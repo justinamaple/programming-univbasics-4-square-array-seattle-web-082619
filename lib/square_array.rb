@@ -5,4 +5,6 @@ def square_array(array)
     array[index] = array[index]**2
     index += 1
   end
+  
+  return array
 end
