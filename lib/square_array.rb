@@ -3,4 +3,5 @@ def square_array(array)
   while index < array.length
     array[index] = array[index]**2
     index += 1
+  end
 end
