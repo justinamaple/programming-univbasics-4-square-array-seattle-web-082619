@@ -1,3 +1,6 @@
 def square_array(array)
-  array.map! { |number| number**2 }
+  index = 0
+  while index < array.length
+    array[index] = array[index]**2
+    index += 1
 end
